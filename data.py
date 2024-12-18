@@ -1,0 +1,3 @@
+class Data:
+    URL = 'https://www.saucedemo.com'
+    PASSWORD = "secret_sauce"
