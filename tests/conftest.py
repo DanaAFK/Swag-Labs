@@ -34,10 +34,3 @@ def driver(request):
 
     except Exception as e:
         pytest.fail(f"Ошибка при инициализации браузера: {e}")
-    finally:
-        if page:
-            page.close()
-        if context:
-            context.close()
-        if browser:
-            browser.close()
